@@ -27,6 +27,7 @@ user:User!
   type Query {
     books: [Book]
     getMe:User
+    getApiKey:String!
   }
 
   type Mutation {
