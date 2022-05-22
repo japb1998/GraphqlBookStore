@@ -9,6 +9,9 @@ const BookSchema = new Schema({
         type: String,
         required: [true, "This book will need a name before it is saved"]
     },
+    description:{
+    type:String
+    },
     author: [String],
     link:{
         type:String,
